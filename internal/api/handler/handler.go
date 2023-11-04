@@ -30,3 +30,19 @@ func (h *Handler) CalculateHybridSimilarityHandler(c *gin.Context) {
 
 	c.JSON(http.StatusOK, gin.H{"result": seq})
 }
+
+func (h *Handler) CalculateBestNMatchesHandler(c *gin.Context) {
+	var req api.SimiligoListRequest
+	if err := c.ShouldBindJSON(&req); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+		return
+	}
+
+	matches, err := h.similiService.CalculateBestNMatches(req)
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{"matches": matches})
+}
