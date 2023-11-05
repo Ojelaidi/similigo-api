@@ -20,3 +20,8 @@ type SimiligoListRequest struct {
 	ContainmentSimWeight float64  `json:"containmentSimWeight"`
 	CustomStopWords      []string `json:"customStopWords"` // Use an array for ease of use
 }
+
+type MatchFunctionRequest struct {
+	OfferTitle string `json:"offerTitle"`
+	N          int    `json:"n"` // Number of best matches to find
+}

@@ -46,3 +46,19 @@ func (h *Handler) CalculateBestNMatchesHandler(c *gin.Context) {
 
 	c.JSON(http.StatusOK, gin.H{"matches": matches})
 }
+
+func (h *Handler) MatchFunctionHandler(c *gin.Context) {
+	var req api.MatchFunctionRequest
+	if err := c.ShouldBindJSON(&req); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+		return
+	}
+
+	matches, err := h.similiService.CalculateTopJobSEOFunctionMatches(req.OfferTitle, req.N)
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		return
+	}
+
+	c.JSON(http.StatusOK, matches)
+}

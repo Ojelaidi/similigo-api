@@ -11,4 +11,5 @@ func SetupRoutes(r *gin.Engine, similigoService *similigo_api.Service) {
 
 	r.POST("/calculateHybridSimilarity", h.CalculateHybridSimilarityHandler)
 	r.POST("/calculateBestMatches", h.CalculateBestNMatchesHandler)
+	r.POST("/calculateBestFunctionMatch", h.MatchFunctionHandler)
 }
