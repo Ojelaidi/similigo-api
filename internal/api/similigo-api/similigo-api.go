@@ -53,11 +53,15 @@ func (s *Service) CalculateBestNMatches(request api.SimiligoListRequest) ([]api.
 // CalculateTopJobSEOFunctionMatches computes the similarity scores for offer titles against
 // a list of functions with preprocessed labels and similar Rome codes, returning the top N JobSEO matches.
 func (s *Service) CalculateTopJobSEOFunctionMatches(offerTitle string, n int) ([]api.JobSEOMatch, error) {
+	if n == 0 {
+		n = api.DefaultNSize
+	}
 	h := api.InitJobSEOMatchHeap()
 
 	// Default options for similarity calculation, adjust as needed
 	opts := []similigo.Option{
 		similigo.WithNgramSize(3),
+		similigo.WithCustomStopWords(api.CustomStpopWords),
 	}
 
 	jobSEOMap := make(map[string]api.JobSEO)
