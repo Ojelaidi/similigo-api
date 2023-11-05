@@ -21,7 +21,7 @@ type SimiligoListRequest struct {
 	CustomStopWords      []string `json:"customStopWords"` // Use an array for ease of use
 }
 
-type MatchFunctionRequest struct {
+type JobMatchRequest struct {
 	OfferTitle string `json:"offerTitle"`
 	N          int    `json:"n"` // Number of best matches to find
 }

@@ -48,7 +48,7 @@ func (h *Handler) CalculateBestNMatchesHandler(c *gin.Context) {
 }
 
 func (h *Handler) MatchFunctionHandler(c *gin.Context) {
-	var req api.MatchFunctionRequest
+	var req api.JobMatchRequest
 	if err := c.ShouldBindJSON(&req); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 		return
@@ -63,7 +63,7 @@ func (h *Handler) MatchFunctionHandler(c *gin.Context) {
 	c.JSON(http.StatusOK, matches)
 }
 func (h *Handler) MatchSectorHandler(c *gin.Context) {
-	var req api.MatchFunctionRequest
+	var req api.JobMatchRequest
 	if err := c.ShouldBindJSON(&req); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 		return
