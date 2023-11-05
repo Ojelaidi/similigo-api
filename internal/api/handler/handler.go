@@ -62,3 +62,18 @@ func (h *Handler) MatchFunctionHandler(c *gin.Context) {
 
 	c.JSON(http.StatusOK, matches)
 }
+func (h *Handler) MatchSectorHandler(c *gin.Context) {
+	var req api.MatchFunctionRequest
+	if err := c.ShouldBindJSON(&req); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+		return
+	}
+
+	matches, err := h.similiService.CalculateTopSecteurMatches(req.OfferTitle, req.N)
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		return
+	}
+
+	c.JSON(http.StatusOK, matches)
+}

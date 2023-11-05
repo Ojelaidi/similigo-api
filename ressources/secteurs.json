@@ -1,0 +1,1153 @@
+[
+  {
+    "children": [
+      {
+        "id": "102",
+        "label": "Aquaculture / Pêche",
+        "slug": "aquaculture-peche-102"
+      },
+      {
+        "id": "104",
+        "label": "Viticulture / Viniculture",
+        "slug": "viticulture-viniculture-104"
+      },
+      {
+        "id": "101",
+        "label": "Agriculture / Horticulture / Élevage / Chasse",
+        "slug": "agriculture-horticulture-elevage-chasse-101"
+      },
+      {
+        "id": "103",
+        "label": "Sylviculture / Exploitation forestière",
+        "slug": "sylviculture-exploitation-forestiere-103"
+      }
+    ],
+    "id": "100",
+    "label": "Agriculture",
+    "level": 1,
+    "slug": "agriculture-100"
+  },
+  {
+    "children": [
+      {
+        "id": "201",
+        "label": "Spectacle / Culture / Loisirs",
+        "slug": "spectacle-culture-loisirs-201"
+      },
+      {
+        "id": "202",
+        "label": "Association / Humanitaire",
+        "slug": "association-humanitaire-202"
+      }
+    ],
+    "id": "200",
+    "label": "Associatif / Art / Culture",
+    "level": 1,
+    "slug": "associatif-art-culture-200"
+  },
+  {
+    "id": "302",
+    "label": "Assurance / Fonds de Retraite",
+    "level": 2,
+    "slug": "assurance-fonds-de-retraite-302"
+  },
+  {
+    "id": "403",
+    "label": "Commerce / Distribution / Grande Distribution Spécialisée",
+    "level": 2,
+    "slug": "commerce-distribution-grande-distribution-specialisee-403"
+  },
+  {
+    "id": "501",
+    "label": "Cabinet Comptable / Audit",
+    "level": 2,
+    "slug": "cabinet-comptable-audit-501"
+  },
+  {
+    "id": "506",
+    "label": "Publicité / Marketing Direct / Communication",
+    "level": 2,
+    "slug": "publicite-marketing-direct-communication-506"
+  },
+  {
+    "id": "511",
+    "label": "Autres services aux entreprises",
+    "level": 2,
+    "slug": "autres-services-aux-entreprises-511"
+  },
+  {
+    "id": "604",
+    "label": "Forage / Terrassement / Démolition / Second œuvre et finitions",
+    "level": 2,
+    "slug": "forage-terrassement-demolition-second-oeuvre-et-finitions-604"
+  },
+  {
+    "id": "704",
+    "label": "Traitement de l'eau",
+    "level": 2,
+    "slug": "traitement-de-leau-704"
+  },
+  {
+    "id": "901",
+    "label": "Agroalimentaire / Boissons",
+    "level": 2,
+    "slug": "agroalimentaire-boissons-901"
+  },
+  {
+    "id": "906",
+    "label": "Matériel de transport / Moto / Cycles",
+    "level": 2,
+    "slug": "materiel-de-transport-moto-cycles-906"
+  },
+  {
+    "id": "911",
+    "label": "Ameublement / Industrie du Bois",
+    "level": 2,
+    "slug": "ameublement-industrie-du-bois-911"
+  },
+  {
+    "id": "916",
+    "label": "Produits électroniques / informatique / optique / horlogerie",
+    "level": 2,
+    "slug": "produits-electroniques-informatique-optique-horlogerie-916"
+  },
+  {
+    "id": "921",
+    "label": "Tabac",
+    "level": 2,
+    "slug": "tabac-921"
+  },
+  {
+    "id": "926",
+    "label": "Autres produits manufacturés",
+    "level": 2,
+    "slug": "autres-produits-manufactures-926"
+  },
+  {
+    "id": "1004",
+    "label": "Services et Ingénieries informatiques (SSII)",
+    "level": 2,
+    "slug": "services-et-ingenieries-informatiques-ssii-1004"
+  },
+  {
+    "id": "1104",
+    "label": "Diffusion radio / télévision",
+    "level": 2,
+    "slug": "diffusion-radio-television-1104"
+  },
+  {
+    "id": "1204",
+    "label": "Vétérinaire",
+    "level": 2,
+    "slug": "veterinaire-1204"
+  },
+  {
+    "id": "1304",
+    "label": "Services à la personne",
+    "level": 2,
+    "slug": "services-a-la-personne-1304"
+  },
+  {
+    "id": "1403",
+    "label": "Culture / Musées / Bibliothèques / Réserves naturelles",
+    "level": 2,
+    "slug": "culture-musees-bibliotheques-reserves-naturelles-1403"
+  },
+  {
+    "id": "1503",
+    "label": "Tourisme / Voyages",
+    "level": 2,
+    "slug": "tourisme-voyages-1503"
+  },
+  {
+    "id": "1602",
+    "label": "Transport maritime / fluvial",
+    "level": 2,
+    "slug": "transport-maritime-fluvial-1602"
+  },
+  {
+    "id": "104",
+    "label": "Viticulture / Viniculture",
+    "level": 2,
+    "slug": "viticulture-viniculture-104"
+  },
+  {
+    "id": "301",
+    "label": "Banque / Etablissement financier / Crédit / Holding",
+    "level": 2,
+    "slug": "banque-etablissement-financier-credit-holding-301"
+  },
+  {
+    "id": "402",
+    "label": "Commerce / Distribution / Grande Distribution Alimentaire",
+    "level": 2,
+    "slug": "commerce-distribution-grande-distribution-alimentaire-402"
+  },
+  {
+    "children": [
+      {
+        "id": "501",
+        "label": "Cabinet Comptable / Audit",
+        "slug": "cabinet-comptable-audit-501"
+      },
+      {
+        "id": "503",
+        "label": "Conseil stratégique aux entreprises",
+        "slug": "conseil-strategique-aux-entreprises-503"
+      },
+      {
+        "id": "505",
+        "label": "Institut d'études / Centre d'appels",
+        "slug": "institut-detudes-centre-dappels-505"
+      },
+      {
+        "id": "507",
+        "label": "Salons / Congrès / Manifestations",
+        "slug": "salons-congres-manifestations-507"
+      },
+      {
+        "id": "509",
+        "label": "Nettoyage industriel / Aménagement paysager",
+        "slug": "nettoyage-industriel-amenagement-paysager-509"
+      },
+      {
+        "id": "511",
+        "label": "Autres services aux entreprises",
+        "slug": "autres-services-aux-entreprises-511"
+      },
+      {
+        "id": "502",
+        "label": "Emploi / Recrutement",
+        "slug": "emploi-recrutement-502"
+      },
+      {
+        "id": "504",
+        "label": "Conseil juridique / Cabinet d'avocats / Notaire",
+        "slug": "conseil-juridique-cabinet-davocats-notaire-504"
+      },
+      {
+        "id": "506",
+        "label": "Publicité / Marketing Direct / Communication",
+        "slug": "publicite-marketing-direct-communication-506"
+      },
+      {
+        "id": "508",
+        "label": "Maintenance/ Installation industrielle",
+        "slug": "maintenance-installation-industrielle-508"
+      },
+      {
+        "id": "510",
+        "label": "Recherche & Développement (R&D)",
+        "slug": "recherche-and-developpement-randd-510"
+      }
+    ],
+    "id": "500",
+    "label": "Service aux entreprises",
+    "level": 1,
+    "slug": "service-aux-entreprises-500"
+  },
+  {
+    "id": "505",
+    "label": "Institut d'études / Centre d'appels",
+    "level": 2,
+    "slug": "institut-detudes-centre-dappels-505"
+  },
+  {
+    "id": "510",
+    "label": "Recherche & Développement (R&D)",
+    "level": 2,
+    "slug": "recherche-and-developpement-randd-510"
+  },
+  {
+    "id": "603",
+    "label": "Gros œuvre / Construction",
+    "level": 2,
+    "slug": "gros-oeuvre-construction-603"
+  },
+  {
+    "id": "703",
+    "label": "Déchets ménagers et industriels / Dépollution",
+    "level": 2,
+    "slug": "dechets-menagers-et-industriels-depollution-703"
+  },
+  {
+    "children": [
+      {
+        "id": "902",
+        "label": "Aéronautique / Aérospatiale",
+        "slug": "aeronautique-aerospatiale-902"
+      },
+      {
+        "id": "904",
+        "label": "Construction navale",
+        "slug": "construction-navale-904"
+      },
+      {
+        "id": "906",
+        "label": "Matériel de transport / Moto / Cycles",
+        "slug": "materiel-de-transport-moto-cycles-906"
+      },
+      {
+        "id": "908",
+        "label": "Cokéfaction / Raffinage / Pétrochimie",
+        "slug": "cokefaction-raffinage-petrochimie-908"
+      },
+      {
+        "id": "910",
+        "label": "Industrie pharmaceutique / Biotechnologie",
+        "slug": "industrie-pharmaceutique-biotechnologie-910"
+      },
+      {
+        "id": "912",
+        "label": "Métallurgie",
+        "slug": "metallurgie-912"
+      },
+      {
+        "id": "914",
+        "label": "Machines et biens d'équipement industriel / agricole",
+        "slug": "machines-et-biens-dequipement-industriel-agricole-914"
+      },
+      {
+        "id": "916",
+        "label": "Produits électroniques / informatique / optique / horlogerie",
+        "slug": "produits-electroniques-informatique-optique-horlogerie-916"
+      },
+      {
+        "id": "918",
+        "label": "Instruments de musique",
+        "slug": "instruments-de-musique-918"
+      },
+      {
+        "id": "920",
+        "label": "Industrie de l'édition / Imprimerie",
+        "slug": "industrie-de-ledition-imprimerie-920"
+      },
+      {
+        "id": "922",
+        "label": "Textile / Cuir / Prêt à porter",
+        "slug": "textile-cuir-pret-a-porter-922"
+      },
+      {
+        "id": "924",
+        "label": "Plastique / Plasturgie / Caoutchouc / Composite",
+        "slug": "plastique-plasturgie-caoutchouc-composite-924"
+      },
+      {
+        "id": "926",
+        "label": "Autres produits manufacturés",
+        "slug": "autres-produits-manufactures-926"
+      },
+      {
+        "id": "923",
+        "label": "Papier / Carton",
+        "slug": "papier-carton-923"
+      },
+      {
+        "id": "925",
+        "label": "Verre / Céramique",
+        "slug": "verre-ceramique-925"
+      },
+      {
+        "id": "901",
+        "label": "Agroalimentaire / Boissons",
+        "slug": "agroalimentaire-boissons-901"
+      },
+      {
+        "id": "903",
+        "label": "Industrie Automobile / Équipementiers",
+        "slug": "industrie-automobile-equipementiers-903"
+      },
+      {
+        "id": "905",
+        "label": "Ferroviaire",
+        "slug": "ferroviaire-905"
+      },
+      {
+        "id": "907",
+        "label": "Extraction / Mines",
+        "slug": "extraction-mines-907"
+      },
+      {
+        "id": "909",
+        "label": "Chimie / Parachimie",
+        "slug": "chimie-parachimie-909"
+      },
+      {
+        "id": "911",
+        "label": "Ameublement / Industrie du Bois",
+        "slug": "ameublement-industrie-du-bois-911"
+      },
+      {
+        "id": "913",
+        "label": "Produits métalliques / Armement",
+        "slug": "produits-metalliques-armement-913"
+      },
+      {
+        "id": "915",
+        "label": "Instrumentation scientifique et médicale",
+        "slug": "instrumentation-scientifique-et-medicale-915"
+      },
+      {
+        "id": "917",
+        "label": "Joaillerie / Bijouterie",
+        "slug": "joaillerie-bijouterie-917"
+      },
+      {
+        "id": "919",
+        "label": "Produits de Sport / Loisirs / Jouets / Jeux",
+        "slug": "produits-de-sport-loisirs-jouets-jeux-919"
+      },
+      {
+        "id": "921",
+        "label": "Tabac",
+        "slug": "tabac-921"
+      }
+    ],
+    "id": "900",
+    "label": "Industries",
+    "level": 1,
+    "slug": "industries-900"
+  },
+  {
+    "id": "905",
+    "label": "Ferroviaire",
+    "level": 2,
+    "slug": "ferroviaire-905"
+  },
+  {
+    "id": "910",
+    "label": "Industrie pharmaceutique / Biotechnologie",
+    "level": 2,
+    "slug": "industrie-pharmaceutique-biotechnologie-910"
+  },
+  {
+    "id": "915",
+    "label": "Instrumentation scientifique et médicale",
+    "level": 2,
+    "slug": "instrumentation-scientifique-et-medicale-915"
+  },
+  {
+    "id": "920",
+    "label": "Industrie de l'édition / Imprimerie",
+    "level": 2,
+    "slug": "industrie-de-ledition-imprimerie-920"
+  },
+  {
+    "id": "925",
+    "label": "Verre / Céramique",
+    "level": 2,
+    "slug": "verre-ceramique-925"
+  },
+  {
+    "id": "1003",
+    "label": "Internet / Multimedia",
+    "level": 2,
+    "slug": "internet-multimedia-1003"
+  },
+  {
+    "id": "1103",
+    "label": "Production cinéma / audiovisuelle",
+    "level": 2,
+    "slug": "production-cinema-audiovisuelle-1103"
+  },
+  {
+    "id": "1203",
+    "label": "Services santé / Action sociale",
+    "level": 2,
+    "slug": "services-sante-action-sociale-1203"
+  },
+  {
+    "id": "1303",
+    "label": "Réparation de biens domestiques",
+    "level": 2,
+    "slug": "reparation-de-biens-domestiques-1303"
+  },
+  {
+    "id": "1402",
+    "label": "Enseignement / Recherche / Formation",
+    "level": 2,
+    "slug": "enseignement-recherche-formation-1402"
+  },
+  {
+    "id": "1502",
+    "label": "Restauration",
+    "level": 2,
+    "slug": "restauration-1502"
+  },
+  {
+    "id": "1601",
+    "label": "Transport routier / ferroviaire",
+    "level": 2,
+    "slug": "transport-routier-ferroviaire-1601"
+  },
+  {
+    "id": "101",
+    "label": "Agriculture / Horticulture / Élevage / Chasse",
+    "level": 2,
+    "slug": "agriculture-horticulture-elevage-chasse-101"
+  },
+  {
+    "id": "201",
+    "label": "Spectacle / Culture / Loisirs",
+    "level": 2,
+    "slug": "spectacle-culture-loisirs-201"
+  },
+  {
+    "id": "303",
+    "label": "Finance de marchés / Bourse / Courtage / Gestion de fonds",
+    "level": 2,
+    "slug": "finance-de-marches-bourse-courtage-gestion-de-fonds-303"
+  },
+  {
+    "id": "404",
+    "label": "Centrale d'achats / Commerce de gros / Négoce",
+    "level": 2,
+    "slug": "centrale-dachats-commerce-de-gros-negoce-404"
+  },
+  {
+    "id": "503",
+    "label": "Conseil stratégique aux entreprises",
+    "level": 2,
+    "slug": "conseil-strategique-aux-entreprises-503"
+  },
+  {
+    "id": "508",
+    "label": "Maintenance/ Installation industrielle",
+    "level": 2,
+    "slug": "maintenance-installation-industrielle-508"
+  },
+  {
+    "id": "601",
+    "label": "Architecture / Ingénierie / Bureau d'études",
+    "level": 2,
+    "slug": "architecture-ingenierie-bureau-detudes-601"
+  },
+  {
+    "id": "701",
+    "label": "Electricité / Gaz / Chauffage",
+    "level": 2,
+    "slug": "electricite-gaz-chauffage-701"
+  },
+  {
+    "id": "801",
+    "label": "Société immobilière / Gestion locative / Syndic",
+    "level": 2,
+    "slug": "societe-immobiliere-gestion-locative-syndic-801"
+  },
+  {
+    "id": "903",
+    "label": "Industrie Automobile / Équipementiers",
+    "level": 2,
+    "slug": "industrie-automobile-equipementiers-903"
+  },
+  {
+    "id": "908",
+    "label": "Cokéfaction / Raffinage / Pétrochimie",
+    "level": 2,
+    "slug": "cokefaction-raffinage-petrochimie-908"
+  },
+  {
+    "id": "913",
+    "label": "Produits métalliques / Armement",
+    "level": 2,
+    "slug": "produits-metalliques-armement-913"
+  },
+  {
+    "id": "918",
+    "label": "Instruments de musique",
+    "level": 2,
+    "slug": "instruments-de-musique-918"
+  },
+  {
+    "id": "923",
+    "label": "Papier / Carton",
+    "level": 2,
+    "slug": "papier-carton-923"
+  },
+  {
+    "id": "1001",
+    "label": "Télécommunications / Infogérance / Hébergeurs / FAI",
+    "level": 2,
+    "slug": "telecommunications-infogerance-hebergeurs-fai-1001"
+  },
+  {
+    "id": "1101",
+    "label": "Presse / Edition",
+    "level": 2,
+    "slug": "presse-edition-1101"
+  },
+  {
+    "id": "1201",
+    "label": "Activités de santé / soins",
+    "level": 2,
+    "slug": "activites-de-sante-soins-1201"
+  },
+  {
+    "id": "1301",
+    "label": "Location / Bail",
+    "level": 2,
+    "slug": "location-bail-1301"
+  },
+  {
+    "children": [
+      {
+        "id": "1402",
+        "label": "Enseignement / Recherche / Formation",
+        "slug": "enseignement-recherche-formation-1402"
+      },
+      {
+        "id": "1404",
+        "label": "Ambassades / Consulats / Activités extra-territoriales",
+        "slug": "ambassades-consulats-activites-extra-territoriales-1404"
+      },
+      {
+        "id": "1401",
+        "label": "Administrations / Institutions publiques",
+        "slug": "administrations-institutions-publiques-1401"
+      },
+      {
+        "id": "1403",
+        "label": "Culture / Musées / Bibliothèques / Réserves naturelles",
+        "slug": "culture-musees-bibliotheques-reserves-naturelles-1403"
+      }
+    ],
+    "id": "1400",
+    "label": "Services publics / Administrations",
+    "level": 1,
+    "slug": "services-publics-administrations-1400"
+  },
+  {
+    "children": [
+      {
+        "id": "1501",
+        "label": "Hôtellerie / Hébergement",
+        "slug": "hotellerie-hebergement-1501"
+      },
+      {
+        "id": "1503",
+        "label": "Tourisme / Voyages",
+        "slug": "tourisme-voyages-1503"
+      },
+      {
+        "id": "1505",
+        "label": "Jeux de hasard / Jeux d'argent",
+        "slug": "jeux-de-hasard-jeux-dargent-1505"
+      },
+      {
+        "id": "1502",
+        "label": "Restauration",
+        "slug": "restauration-1502"
+      },
+      {
+        "id": "1504",
+        "label": "Loisirs / Activités sportives et récréatives",
+        "slug": "loisirs-activites-sportives-et-recreatives-1504"
+      }
+    ],
+    "id": "1500",
+    "label": "Tourisme / Hotelerie / Restauration / Loisirs",
+    "level": 1,
+    "slug": "tourisme-hotelerie-restauration-loisirs-1500"
+  },
+  {
+    "id": "1505",
+    "label": "Jeux de hasard / Jeux d'argent",
+    "level": 2,
+    "slug": "jeux-de-hasard-jeux-dargent-1505"
+  },
+  {
+    "id": "1604",
+    "label": "Entreposage / Stockage / Manutention",
+    "level": 2,
+    "slug": "entreposage-stockage-manutention-1604"
+  },
+  {
+    "id": "103",
+    "label": "Sylviculture / Exploitation forestière",
+    "level": 2,
+    "slug": "sylviculture-exploitation-forestiere-103"
+  },
+  {
+    "children": [
+      {
+        "id": "302",
+        "label": "Assurance / Fonds de Retraite",
+        "slug": "assurance-fonds-de-retraite-302"
+      },
+      {
+        "id": "301",
+        "label": "Banque / Etablissement financier / Crédit / Holding",
+        "slug": "banque-etablissement-financier-credit-holding-301"
+      },
+      {
+        "id": "303",
+        "label": "Finance de marchés / Bourse / Courtage / Gestion de fonds",
+        "slug": "finance-de-marches-bourse-courtage-gestion-de-fonds-303"
+      }
+    ],
+    "id": "300",
+    "label": "Banque / Assurance / Finance",
+    "level": 1,
+    "slug": "banque-assurance-finance-300"
+  },
+  {
+    "id": "401",
+    "label": "Automobile/ Motocycles",
+    "level": 2,
+    "slug": "automobile-motocycles-401"
+  },
+  {
+    "id": "406",
+    "label": "E-Commerce / V.P.C.",
+    "level": 2,
+    "slug": "e-commerce-v-p-c-406"
+  },
+  {
+    "id": "504",
+    "label": "Conseil juridique / Cabinet d'avocats / Notaire",
+    "level": 2,
+    "slug": "conseil-juridique-cabinet-davocats-notaire-504"
+  },
+  {
+    "id": "509",
+    "label": "Nettoyage industriel / Aménagement paysager",
+    "level": 2,
+    "slug": "nettoyage-industriel-amenagement-paysager-509"
+  },
+  {
+    "id": "602",
+    "label": "Génie Civil / Bâtiment et Travaux Publics (BTP)",
+    "level": 2,
+    "slug": "genie-civil-batiment-et-travaux-publics-btp-602"
+  },
+  {
+    "id": "702",
+    "label": "Pétrole",
+    "level": 2,
+    "slug": "petrole-702"
+  },
+  {
+    "id": "802",
+    "label": "Promotion immobilière",
+    "level": 2,
+    "slug": "promotion-immobiliere-802"
+  },
+  {
+    "id": "904",
+    "label": "Construction navale",
+    "level": 2,
+    "slug": "construction-navale-904"
+  },
+  {
+    "id": "909",
+    "label": "Chimie / Parachimie",
+    "level": 2,
+    "slug": "chimie-parachimie-909"
+  },
+  {
+    "id": "914",
+    "label": "Machines et biens d'équipement industriel / agricole",
+    "level": 2,
+    "slug": "machines-et-biens-dequipement-industriel-agricole-914"
+  },
+  {
+    "id": "919",
+    "label": "Produits de Sport / Loisirs / Jouets / Jeux",
+    "level": 2,
+    "slug": "produits-de-sport-loisirs-jouets-jeux-919"
+  },
+  {
+    "id": "924",
+    "label": "Plastique / Plasturgie / Caoutchouc / Composite",
+    "level": 2,
+    "slug": "plastique-plasturgie-caoutchouc-composite-924"
+  },
+  {
+    "id": "1002",
+    "label": "Édition informatique / Logiciels",
+    "level": 2,
+    "slug": "edition-informatique-logiciels-1002"
+  },
+  {
+    "id": "1102",
+    "label": "Photo",
+    "level": 2,
+    "slug": "photo-1102"
+  },
+  {
+    "id": "1202",
+    "label": "Établissements de santé / Cliniques / Hébergement social",
+    "level": 2,
+    "slug": "etablissements-de-sante-cliniques-hebergement-social-1202"
+  },
+  {
+    "id": "1302",
+    "label": "Expertise et intervention technique",
+    "level": 2,
+    "slug": "expertise-et-intervention-technique-1302"
+  },
+  {
+    "id": "1401",
+    "label": "Administrations / Institutions publiques",
+    "level": 2,
+    "slug": "administrations-institutions-publiques-1401"
+  },
+  {
+    "id": "1501",
+    "label": "Hôtellerie / Hébergement",
+    "level": 2,
+    "slug": "hotellerie-hebergement-1501"
+  },
+  {
+    "children": [
+      {
+        "id": "1601",
+        "label": "Transport routier / ferroviaire",
+        "slug": "transport-routier-ferroviaire-1601"
+      },
+      {
+        "id": "1603",
+        "label": "Transport aérien",
+        "slug": "transport-aerien-1603"
+      },
+      {
+        "id": "1605",
+        "label": "Poste et courrier / Livraison",
+        "slug": "poste-et-courrier-livraison-1605"
+      },
+      {
+        "id": "1602",
+        "label": "Transport maritime / fluvial",
+        "slug": "transport-maritime-fluvial-1602"
+      },
+      {
+        "id": "1604",
+        "label": "Entreposage / Stockage / Manutention",
+        "slug": "entreposage-stockage-manutention-1604"
+      }
+    ],
+    "id": "1600",
+    "label": "Transport / Stockage logistique",
+    "level": 1,
+    "slug": "transport-stockage-logistique-1600"
+  },
+  {
+    "id": "1605",
+    "label": "Poste et courrier / Livraison",
+    "level": 2,
+    "slug": "poste-et-courrier-livraison-1605"
+  },
+  {
+    "id": "102",
+    "label": "Aquaculture / Pêche",
+    "level": 2,
+    "slug": "aquaculture-peche-102"
+  },
+  {
+    "id": "202",
+    "label": "Association / Humanitaire",
+    "level": 2,
+    "slug": "association-humanitaire-202"
+  },
+  {
+    "children": [
+      {
+        "id": "402",
+        "label": "Commerce / Distribution / Grande Distribution Alimentaire",
+        "slug": "commerce-distribution-grande-distribution-alimentaire-402"
+      },
+      {
+        "id": "404",
+        "label": "Centrale d'achats / Commerce de gros / Négoce",
+        "slug": "centrale-dachats-commerce-de-gros-negoce-404"
+      },
+      {
+        "id": "406",
+        "label": "E-Commerce / V.P.C.",
+        "slug": "e-commerce-v-p-c-406"
+      },
+      {
+        "id": "401",
+        "label": "Automobile/ Motocycles",
+        "slug": "automobile-motocycles-401"
+      },
+      {
+        "id": "403",
+        "label": "Commerce / Distribution / Grande Distribution Spécialisée",
+        "slug": "commerce-distribution-grande-distribution-specialisee-403"
+      },
+      {
+        "id": "405",
+        "label": "Marchés",
+        "slug": "marches-405"
+      }
+    ],
+    "id": "400",
+    "label": "Commerce / Distribution",
+    "level": 1,
+    "slug": "commerce-distribution-400"
+  },
+  {
+    "id": "405",
+    "label": "Marchés",
+    "level": 2,
+    "slug": "marches-405"
+  },
+  {
+    "id": "502",
+    "label": "Emploi / Recrutement",
+    "level": 2,
+    "slug": "emploi-recrutement-502"
+  },
+  {
+    "id": "507",
+    "label": "Salons / Congrès / Manifestations",
+    "level": 2,
+    "slug": "salons-congres-manifestations-507"
+  },
+  {
+    "children": [
+      {
+        "id": "601",
+        "label": "Architecture / Ingénierie / Bureau d'études",
+        "slug": "architecture-ingenierie-bureau-detudes-601"
+      },
+      {
+        "id": "603",
+        "label": "Gros œuvre / Construction",
+        "slug": "gros-oeuvre-construction-603"
+      },
+      {
+        "id": "602",
+        "label": "Génie Civil / Bâtiment et Travaux Publics (BTP)",
+        "slug": "genie-civil-batiment-et-travaux-publics-btp-602"
+      },
+      {
+        "id": "604",
+        "label": "Forage / Terrassement / Démolition / Second œuvre et finitions",
+        "slug": "forage-terrassement-demolition-second-oeuvre-et-finitions-604"
+      }
+    ],
+    "id": "600",
+    "label": "Contruction / BTP",
+    "level": 1,
+    "slug": "contruction-btp-600"
+  },
+  {
+    "children": [
+      {
+        "id": "702",
+        "label": "Pétrole",
+        "slug": "petrole-702"
+      },
+      {
+        "id": "704",
+        "label": "Traitement de l'eau",
+        "slug": "traitement-de-leau-704"
+      },
+      {
+        "id": "701",
+        "label": "Electricité / Gaz / Chauffage",
+        "slug": "electricite-gaz-chauffage-701"
+      },
+      {
+        "id": "703",
+        "label": "Déchets ménagers et industriels / Dépollution",
+        "slug": "dechets-menagers-et-industriels-depollution-703"
+      }
+    ],
+    "id": "700",
+    "label": "Environnement / Énergies",
+    "level": 1,
+    "slug": "environnement-energies-700"
+  },
+  {
+    "children": [
+      {
+        "id": "801",
+        "label": "Société immobilière / Gestion locative / Syndic",
+        "slug": "societe-immobiliere-gestion-locative-syndic-801"
+      },
+      {
+        "id": "802",
+        "label": "Promotion immobilière",
+        "slug": "promotion-immobiliere-802"
+      }
+    ],
+    "id": "800",
+    "label": "Immobilier",
+    "level": 1,
+    "slug": "immobilier-800"
+  },
+  {
+    "id": "902",
+    "label": "Aéronautique / Aérospatiale",
+    "level": 2,
+    "slug": "aeronautique-aerospatiale-902"
+  },
+  {
+    "id": "907",
+    "label": "Extraction / Mines",
+    "level": 2,
+    "slug": "extraction-mines-907"
+  },
+  {
+    "id": "912",
+    "label": "Métallurgie",
+    "level": 2,
+    "slug": "metallurgie-912"
+  },
+  {
+    "id": "917",
+    "label": "Joaillerie / Bijouterie",
+    "level": 2,
+    "slug": "joaillerie-bijouterie-917"
+  },
+  {
+    "id": "922",
+    "label": "Textile / Cuir / Prêt à porter",
+    "level": 2,
+    "slug": "textile-cuir-pret-a-porter-922"
+  },
+  {
+    "children": [
+      {
+        "id": "1001",
+        "label": "Télécommunications / Infogérance / Hébergeurs / FAI",
+        "slug": "telecommunications-infogerance-hebergeurs-fai-1001"
+      },
+      {
+        "id": "1003",
+        "label": "Internet / Multimedia",
+        "slug": "internet-multimedia-1003"
+      },
+      {
+        "id": "1002",
+        "label": "Édition informatique / Logiciels",
+        "slug": "edition-informatique-logiciels-1002"
+      },
+      {
+        "id": "1004",
+        "label": "Services et Ingénieries informatiques (SSII)",
+        "slug": "services-et-ingenieries-informatiques-ssii-1004"
+      }
+    ],
+    "id": "1000",
+    "label": "Informatique / Télécom / Internet",
+    "level": 1,
+    "slug": "informatique-telecom-internet-1000"
+  },
+  {
+    "children": [
+      {
+        "id": "1102",
+        "label": "Photo",
+        "slug": "photo-1102"
+      },
+      {
+        "id": "1104",
+        "label": "Diffusion radio / télévision",
+        "slug": "diffusion-radio-television-1104"
+      },
+      {
+        "id": "1101",
+        "label": "Presse / Edition",
+        "slug": "presse-edition-1101"
+      },
+      {
+        "id": "1103",
+        "label": "Production cinéma / audiovisuelle",
+        "slug": "production-cinema-audiovisuelle-1103"
+      }
+    ],
+    "id": "1100",
+    "label": "Presse / Média",
+    "level": 1,
+    "slug": "presse-media-1100"
+  },
+  {
+    "children": [
+      {
+        "id": "1201",
+        "label": "Activités de santé / soins",
+        "slug": "activites-de-sante-soins-1201"
+      },
+      {
+        "id": "1203",
+        "label": "Services santé / Action sociale",
+        "slug": "services-sante-action-sociale-1203"
+      },
+      {
+        "id": "1202",
+        "label": "Établissements de santé / Cliniques / Hébergement social",
+        "slug": "etablissements-de-sante-cliniques-hebergement-social-1202"
+      },
+      {
+        "id": "1204",
+        "label": "Vétérinaire",
+        "slug": "veterinaire-1204"
+      }
+    ],
+    "id": "1200",
+    "label": "Santé / Protection sociale",
+    "level": 1,
+    "slug": "sante-protection-sociale-1200"
+  },
+  {
+    "children": [
+      {
+        "id": "1302",
+        "label": "Expertise et intervention technique",
+        "slug": "expertise-et-intervention-technique-1302"
+      },
+      {
+        "id": "1304",
+        "label": "Services à la personne",
+        "slug": "services-a-la-personne-1304"
+      },
+      {
+        "id": "1301",
+        "label": "Location / Bail",
+        "slug": "location-bail-1301"
+      },
+      {
+        "id": "1303",
+        "label": "Réparation de biens domestiques",
+        "slug": "reparation-de-biens-domestiques-1303"
+      },
+      {
+        "id": "1305",
+        "label": "Sécurité",
+        "slug": "securite-1305"
+      }
+    ],
+    "id": "1300",
+    "label": "Services",
+    "level": 1,
+    "slug": "services-1300"
+  },
+  {
+    "id": "1305",
+    "label": "Sécurité",
+    "level": 2,
+    "slug": "securite-1305"
+  },
+  {
+    "id": "1404",
+    "label": "Ambassades / Consulats / Activités extra-territoriales",
+    "level": 2,
+    "slug": "ambassades-consulats-activites-extra-territoriales-1404"
+  },
+  {
+    "id": "1504",
+    "label": "Loisirs / Activités sportives et récréatives",
+    "level": 2,
+    "slug": "loisirs-activites-sportives-et-recreatives-1504"
+  },
+  {
+    "id": "1603",
+    "label": "Transport aérien",
+    "level": 2,
+    "slug": "transport-aerien-1603"
+  }
+]

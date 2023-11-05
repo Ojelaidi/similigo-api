@@ -13,3 +13,6 @@ var NewJobsSeo []byte
 
 //go:embed "enriched_functions.json"
 var EnrichedFunctions []byte
+
+//go:embed "secteurs.json"
+var SecteursBytes []byte

@@ -58,7 +58,6 @@ func (s *Service) CalculateTopJobSEOFunctionMatches(offerTitle string, n int) ([
 	}
 	h := api.InitJobSEOMatchHeap()
 
-	// Default options for similarity calculation, adjust as needed
 	opts := []similigo.Option{
 		similigo.WithNgramSize(3),
 		similigo.WithCustomStopWords(api.CustomStpopWords),
@@ -107,4 +106,43 @@ func (s *Service) CalculateTopJobSEOFunctionMatches(offerTitle string, n int) ([
 	}
 
 	return topJobSEOMatches, nil
+}
+
+// CalculateTopSecteurMatches Find the top N sector matches for an offer title
+func (s *Service) CalculateTopSecteurMatches(offerTitle string, n int) ([]api.SecteurMatch, error) {
+	if n == 0 {
+		n = api.DefaultNSize
+	}
+	h := &api.SecteurMatchHeap{}
+	heap.Init(h)
+
+	opts := []similigo.Option{
+		similigo.WithNgramSize(3),
+		similigo.WithCustomStopWords(api.CustomStpopWords),
+	}
+
+	addedSectorMap := make(map[string]bool)
+
+	for _, secteur := range api.SecteurList {
+		labels := api.CollectLabels(secteur)
+		var totalScore float64
+		for _, label := range labels {
+			score := similigo.CalculateHybridSimilarity(offerTitle, label, opts...)
+			totalScore += score
+		}
+
+		if !addedSectorMap[secteur.ID] {
+			heap.Push(h, api.SecteurMatch{Secteur: secteur, Score: totalScore})
+			addedSectorMap[secteur.ID] = true
+		}
+	}
+
+	// Extract the top N matches
+	topMatches := make([]api.SecteurMatch, 0, n)
+	for i := 0; i < n && h.Len() > 0; i++ {
+		m := heap.Pop(h).(api.SecteurMatch)
+		topMatches = append(topMatches, m)
+	}
+
+	return topMatches, nil
 }
