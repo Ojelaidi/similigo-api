@@ -68,18 +68,24 @@ func (s *Service) CalculateTopJobSEOFunctionMatches(offerTitle string, n int) ([
 	addedJobSEOMap := make(map[string]bool)
 
 	for _, function := range api.EnrichedFunctionsList {
-		jobSEOMap[function.ID] = api.JobSEO{
-			Keyword:                        function.Keyword,
-			AssociatedOccupationalCategory: function.OccupationalCode,
-			Weight:                         function.Weight,
+		if function.Keyword != "" && function.OccupationalCode != "" {
+			jobSEOMap[function.ID] = api.JobSEO{
+				Keyword:                        function.Keyword,
+				AssociatedOccupationalCategory: function.OccupationalCode,
+				Weight:                         function.Weight,
+			}
 		}
 	}
 
 	for _, function := range api.EnrichedFunctionsList {
 		for _, label := range function.Labels {
+			if label == "" {
+				continue
+			}
 			score := similigo.CalculateHybridSimilarity(offerTitle, label, opts...)
-			if !addedJobSEOMap[function.ID] {
-				heap.Push(h, api.JobSEOMatch{JobSEO: jobSEOMap[function.ID], Score: score})
+			jobSEO, exists := jobSEOMap[function.ID]
+			if exists && !addedJobSEOMap[function.ID] {
+				heap.Push(h, api.JobSEOMatch{JobSEO: jobSEO, Score: score})
 				addedJobSEOMap[function.ID] = true
 			}
 		}
@@ -89,8 +95,9 @@ func (s *Service) CalculateTopJobSEOFunctionMatches(offerTitle string, n int) ([
 				if ef.ID == similarRome {
 					for _, label := range ef.Labels {
 						score := similigo.CalculateHybridSimilarity(offerTitle, label, opts...)
-						if !addedJobSEOMap[ef.ID] {
-							heap.Push(h, api.JobSEOMatch{JobSEO: jobSEOMap[ef.ID], Score: score})
+						jobSEO, exists := jobSEOMap[ef.ID]
+						if exists && !addedJobSEOMap[ef.ID] {
+							heap.Push(h, api.JobSEOMatch{JobSEO: jobSEO, Score: score})
 							addedJobSEOMap[ef.ID] = true
 						}
 					}
